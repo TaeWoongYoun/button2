@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+main{
+    width: 100%;
+    height: 200px;
+    background: blanchedalmond;
+    position: relative;
+}
+
+div{
+    width: 70%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20%;
+}
+
+button{
+    width: 180px;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.btn1{
+    cursor: wait;
+}
+
+.btn2:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn3:active{
+    font-size: 0;
+    border: 0;
+    background-color: blanchedalmond;
+}
+
+.btn4:focus{
+    background: linear-gradient(to bottom, red, blue);
+    border: none;
+    color: black;
+}
